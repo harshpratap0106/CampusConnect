@@ -1,4 +1,4 @@
-**CampusConnect - Student Grievance Redressal System 🎓**
+**CampusConnect - Student Grievance Redressal System **
 
 CampusConnect is a desktop-based application designed to bridge the gap between students and university administration. It provides a digital interface for reporting, tracking, and resolving campus issues (infrastructure, academic, or residential), replacing inefficient manual paper trails with a transparent digital workflow.
 
@@ -32,7 +32,7 @@ SHA-256 Encryption: User passwords are hashed before storage to ensure data secu
 
 Registration: Secure account creation.
 
-Grievance Submission: Categorized reporting (Academic, Hostel, Infrastructure).
+Grievance Submission: Categorised reporting (Academic, Hostel, Infrastructure).
 
 History Tracking: View personal grievance history and current status (Pending/Resolved).
 
@@ -117,12 +117,12 @@ Password: admin123
 
 **Testing the Workflow**
 
-Run the app and click Register. Create a student account (e.g., john / pass).
+Run the app and click Register. Create a student account (e.g., john/pass).
 
-Login as john. Submit a grievance (e.g., "WiFi not working").
+Log in as john. Submit a grievance (e.g., "WiFi not working").
 
 Logout.
 
-Login as admin. You will see John's grievance.
+Log in as admin. You will see John's grievance.
 
 Select the row and click Update Status to mark it as "Resolved".
