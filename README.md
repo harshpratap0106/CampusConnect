@@ -113,7 +113,7 @@ Testing the Workflow
 
 Run the app and click Register. Create a student account (e.g., john / pass).
 
-Login as john. Submit a grievance (e.g., "WiFi not working").
+Login as john. Submit a grievance (e.g., "WiFi not working"). 
 
 Logout.
 
