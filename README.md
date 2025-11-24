@@ -1,8 +1,8 @@
-CampusConnect - Student Grievance Redressal System 🎓
+**CampusConnect - Student Grievance Redressal System 🎓**
 
 CampusConnect is a desktop-based application designed to bridge the gap between students and university administration. It provides a digital interface for reporting, tracking, and resolving campus issues (infrastructure, academic, or residential), replacing inefficient manual paper trails with a transparent digital workflow.
 
-📖 Table of Contents
+📖 **Table of Contents**
 
 Problem Statement
 
@@ -16,11 +16,11 @@ Project Structure
 
 Usage Guide
 
-🚩 Problem Statement
+🚩** Problem Statement**
 
 In many educational institutions, the process of reporting grievances is often manual, decentralized, and opaque. Students submit written complaints that are easily lost, and there is no mechanism to track the status of a resolution. CampusConnect solves this by offering a centralized database and a role-based dashboard for real-time tracking.
 
-✨ Key Features
+✨ **Key Features**
 
 🔐 Security & Access Control
 
@@ -46,7 +46,7 @@ Status Updates: Ability to mark issues as "In Progress" or "Resolved".
 
 File-Based Database: Utilizes Java File I/O to store data in local .txt files (users.txt, grievances.txt), ensuring data is not lost when the application closes.
 
-💻 Technology Stack
+💻 **Technology Stack**
 
 Programming Language: Java (JDK 8 or higher)
 
@@ -56,7 +56,7 @@ Data Handling: java.io (File Handling), java.util (Collections)
 
 Security: java.security.MessageDigest (SHA-256 Hashing)
 
-🚀 Installation & Execution
+🚀 **Installation & Execution**
 
 Prerequisites
 
@@ -64,7 +64,7 @@ Ensure Java (JDK) is installed. Verify by running java -version in your terminal
 
 Clone or download this repository.
 
-Steps to Run
+Steps to Run:
 
 Navigate to the project root directory in your terminal/command prompt:
 
@@ -83,23 +83,29 @@ Run the application:
 java -cp bin campusconnect.main.CampusConnectApp
 
 
-📂 Project Structure
+📂 **Project Structure**
 
 CampusConnect_Project/
+
 ├── src/
+
 │   └── campusconnect/
-│       ├── main/           # Entry point (CampusConnectApp.java)
-│       ├── models/         # Data classes (User, Grievance)
-│       ├── services/       # Backend Logic & File Handling (DataService)
-│       └── views/          # GUI Screens (Login, Dashboards)
+
+│       ├── main/               #Entry point (CampusConnectApp.java)
+
+│       ├── models/             #Data classes (User, Grievance)
+
+│       ├── services/           # Backend Logic & File Handling (DataService)
+
+│       └── views/               #GUI Screens (Login, Dashboards)
+
 ├── bin/                    # Compiled bytecode (generated after compilation)
-├── users.txt               # Local storage for user credentials
-├── grievances.txt          # Local storage for grievance records
-├── statement.md            # Problem statement documentation
-└── README.md               # Project documentation
 
+Readme.md                   # Project documentation
 
-📱 Usage Guide
+Statement.md                # Problem statement documentation
+
+📱 **Usage Guide**
 
 Default Admin Credentials
 
@@ -109,7 +115,7 @@ Username: admin
 
 Password: admin123
 
-Testing the Workflow
+**Testing the Workflow**
 
 Run the app and click Register. Create a student account (e.g., john / pass).
 
