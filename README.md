@@ -8,8 +8,6 @@ Problem Statement
 
 Key Features
 
-System Architecture
-
 Technology Stack
 
 Installation & Execution
@@ -47,34 +45,6 @@ Status Updates: Ability to mark issues as "In Progress" or "Resolved".
 💾 Data Persistence
 
 File-Based Database: Utilizes Java File I/O to store data in local .txt files (users.txt, grievances.txt), ensuring data is not lost when the application closes.
-
-🏗 System Architecture
-
-This project adheres to the Model-View-Controller (MVC) design pattern to ensure code modularity and separation of concerns:
-
-Component
-
-Responsibility
-
-Files
-
-Model
-
-Represents data structures and objects.
-
-User.java, Grievance.java
-
-View
-
-Handles the Graphical User Interface (GUI).
-
-LoginScreen.java, StudentDashboard.java, AdminDashboard.java
-
-Controller/Service
-
-Manages business logic, authentication, and file I/O.
-
-DataService.java, CampusConnectApp.java
 
 💻 Technology Stack
 
